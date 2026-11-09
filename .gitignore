@@ -1,0 +1,14 @@
+# obj_dir/
+*.vcd
+*.fst
+*.vvp
+*.log
+
+# Generated files
+prog.hex
+prog_software.hex
+prog_baseline.hex
+prog_pcpi.hex
+
+# macOS
+.DS_Store
