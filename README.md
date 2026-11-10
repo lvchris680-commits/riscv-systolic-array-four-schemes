@@ -12,10 +12,6 @@ CPU/accelerator interaction styles:
 | 3 | PCPI co-processor (custom instructions) | moves data BRAM↔regs | computes |
 | 4 | DMA + shared BRAM + 2-master arbiter | triggers + polls | computes **and** moves data |
 
-The highlight is a hand-written, single-outstanding, round-robin
-**AXI4-Lite arbiter** (`rtl/scheme4_dma/axi_lite_arbiter_2m1s.sv`) that
-multiplexes two masters onto one slave (Scheme 4).
-
 ---
 
 ## The four schemes
